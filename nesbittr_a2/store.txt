@@ -1,0 +1,38 @@
+type = electronics
+productID = 000001
+name = iPhone 7s
+price = 799.99
+year = 2016
+maker = Apple Inc.
+
+type = book
+productID = 000002
+name = Snapchatting Guide for Parents
+price = 25.99
+year = 2015
+authors = Ryan Nesbitt
+publisher = Nelson Learning
+
+type = book
+productID = 000003
+name = Java Programming
+price = 300.0
+year = 2005
+authors = Java God
+publisher = Overpriced Textbooks Inc.
+
+type = electronics
+productID = 000004
+name = iPhone 4s
+price = 150.99
+year = 2010
+maker = Apple Inc.
+
+type = book
+productID = 000005
+name = Bible
+price = 25.0
+year = 2012
+authors = Jesus Christ
+publisher = God Inc.
+

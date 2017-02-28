@@ -1,0 +1,19 @@
+----------------------
+README
+Ryan Nesbitt (0915819)
+Assignment 2
+----------------------
+1) This program is designed to solve the problem of needing a searching software, which is set up to search 1 list of products. This uses the two  subclasses Electronics and Books. Using the software you can add things to either of these lists through the main menu, and then search using 0-3 search fields to find the corresponding data entries. This also takes a file input via command line. This should be in the specified format as I have given, and not any different. It adds the items in that file to the Array List
+
+2)The assumptions and limitations are that the user should enter what is required. I have added defensive programming for most steps, like allowing q or quit and others for quit, but a bad user might just enter "end" or "exit". With the nature of software, a computer can not identify these are anything more than words. Other sections have necessary defensive program, like IDs needing to be 6 digits long, as well as not already being used. All integer and float values must be entered as a number, not a word, and all necessary values must be entered and not left blank.
+
+3)To test this program you should first compile it, by typing:
+javac a2nesbittr/*.java
+Next to run it you must type: 
+java a2nesbittr.main <filename with location relative to current folder> 
+to run the program. My default store file is ran by typing: 
+java a2nesbittr.main store.txt
+
+4)The test plan I used was extensive. Every possibly value was used for each possible choice of user input. As I was working on a function, I tested multiple values that were incorrect, as well as multiple that were correct. For integer/float values I made sure that entering a string would not end the program, and i made sure that only the appropriate values would be accepted. For the String values, if they could be blank, I made sure it allowed them to be, but when they couldn’t I made sure they were not empty. For the ID I tested with a plethora of values, from 1 digit long to 7 digits to make sure that only the valid format was accepted.
+
+5) I believe I have tested and made sure all required components are working. If I had more time i would actually like to add more functionality like allowing user to actually purchase items, adding an inventory count, and adding a cart for users to show the items they want as well as the total price. These things would greatly improve the functionality of this software.
